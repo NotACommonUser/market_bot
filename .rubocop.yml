@@ -1,6 +1,6 @@
 AllCops:
   TargetRubyVersion: 2.1
-  DisplayCopNames: true
+  DisplayCopNames: false
 
 Rails:
   Enabled: true
@@ -15,13 +15,13 @@ Metrics/BlockLength:
   Enabled: false
 
 Metrics/AbcSize:
-  Enabled: false
+  Enabled: true
 
 Metrics/BlockNesting:
-  Enabled: false
+  Enabled: true
 
 Metrics/PerceivedComplexity:
-  Enabled: false
+  Enabled: true
 
 Style/Documentation:
   Enabled: false
@@ -39,7 +39,7 @@ Style/DoubleNegation:
   Enabled: false
 
 Metrics/ClassLength:
-  Enabled: false
+  Enabled: true
 
 Style/GuardClause:
   Enabled: false
@@ -51,25 +51,25 @@ Lint/HandleExceptions:
   Enabled: false
 
 Style/SingleLineBlockParams:
-  Enabled: false
+  Enabled: true
 
 Rails/OutputSafety:
-  Enabled: false
+  Enabled: true
 
 Rails/FilePath:
-  Enabled: false
+  Enabled: true
 
 Rails/SkipsModelValidations:
   Enabled: false
 
 Style/IdenticalConditionalBranches:
-  Enabled: false
+  Enabled: true
 
 Style/RegexpLiteral:
-  Enabled: false
+  Enabled: true
 
 Lint/RescueException:
   Enabled: false
 
 Style/MultilineBlockChain:
-  Enabled: false
+  Enabled: true
